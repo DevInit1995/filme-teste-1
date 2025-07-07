@@ -1,0 +1,18 @@
+{
+  "name": "app_catalogo_filmes1_webpack",
+  "version": "1.0.0",
+  "description": "App catalogo de filmes",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch --config dev_webpack.js"
+  },
+  "devDependencies": {
+    "jasmine": "^5.7.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
